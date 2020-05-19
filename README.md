@@ -40,13 +40,13 @@ For use in ant remember the dependencies:
   
   
   properties file :
-  
-ant.jar                         = ${compressor.lib.dir}/ant-1.9.9.jar
-ant-launcher.jar                = ${compressor.lib.dir}/ant-launcher-1.9.9.jar
-guava.jar                       = ${compressor.lib.dir}/guava-20.0.jar
-htmlcompressor.jar              = ${compressor.lib.dir}/htmlcompressor.jar -1.6.2.jar
-rhino.jar                       = ${compressor.lib.dir}/rhino-1.6R7.jar
-jargs.jar                       = ${compressor.lib.dir}/jargs-1.0.jar
-jarjar.jar                      = ${compressor.lib.dir}/jarjar-1.4.1.jar
-yuicompressor.jar               = ${compressor.lib.dir}/yuicompressor-2.4.9.jar
-yuicompressor-ant-task.jar      = ${compressor.lib.dir}/yui-compressor-ant-task-0.7.0.jar
+ 
+	ant.jar                         = ${compressor.lib.dir}/ant-1.9.9.jar
+	ant-launcher.jar                = ${compressor.lib.dir}/ant-launcher-1.9.9.jar
+	guava.jar                       = ${compressor.lib.dir}/guava-20.0.jar
+	htmlcompressor.jar              = ${compressor.lib.dir}/htmlcompressor.jar -1.6.2.jar
+	rhino.jar                       = ${compressor.lib.dir}/rhino-1.6R7.jar
+	jargs.jar                       = ${compressor.lib.dir}/jargs-1.0.jar
+	jarjar.jar                      = ${compressor.lib.dir}/jarjar-1.4.1.jar
+	yuicompressor.jar               = ${compressor.lib.dir}/yuicompressor-2.4.9.jar
+	yuicompressor-ant-task.jar      = ${compressor.lib.dir}/yui-compressor-ant-task-0.7.0.jar
