@@ -52,8 +52,8 @@ import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.DirectoryScanner;
 import org.apache.tools.ant.Project;
 import org.apache.tools.ant.taskdefs.MatchingTask;
-import org.mozilla.javascript.ErrorReporter;
-import org.mozilla.javascript.EvaluatorException;
+import org.mozilla_yui.javascript.ErrorReporter;
+import org.mozilla_yui.javascript.EvaluatorException;
 
 import com.google.common.base.Charsets;
 import com.googlecode.htmlcompressor.compressor.HtmlCompressor;
