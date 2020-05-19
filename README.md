@@ -50,3 +50,13 @@ For use in ant remember the dependencies:
 	jarjar.jar                      = ${compressor.lib.dir}/jarjar-1.4.1.jar
 	yuicompressor.jar               = ${compressor.lib.dir}/yuicompressor-2.4.9.jar
 	yuicompressor-ant-task.jar      = ${compressor.lib.dir}/yui-compressor-ant-task-0.7.0.jar
+
+
+A workarround for minify jquery 3.5.1 was rename the varible final -> _final
+
+
+	var _final = jQuery.cssProps[ name ] || vendorProps[ name ];
+
+        if ( _final ) {
+            return _final;
+        }
