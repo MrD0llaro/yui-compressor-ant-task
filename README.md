@@ -20,9 +20,9 @@ For use in ant remember the dependencies:
 
 
 
-<taskdef name="yui-compressor" classname="net.noha.tools.ant.yuicompressor.tasks.YuiCompressorTask">
-			<classpath refid="task.classpath" />
-		</taskdef>
+	<taskdef name="yui-compressor" classname="net.noha.tools.ant.yuicompressor.tasks.YuiCompressorTask">
+		<classpath refid="task.classpath" />
+	</taskdef>
 
 	<path id="task.classpath">
 		<pathelement location="${yuicompressor.jar}" />
